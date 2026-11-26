@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX-BOX</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>ABARROTES</h1>
+        <h2>Conoce nuestra mercancia a la venta</h2>
+    </header>
+    <main>
+        <section class="PRODUCTOS">
+            <div class="Trajeta1">
+                <h2>FRIJOLES</h2>
+                <img src="imagenes/FRIJOLES.webp" alt="MP40" class="img">
+                <div class="Info">
+                    <p>DE LA SIERRA</p><br>
+                    <p>FRIJOLES NEGROS</p><br>
+                    <p>ENLATADOS</p><br>
+                    <p></p><br>
+                    <p class="precio">$30</p><br>
+                    <button class="boton1" data-nombre="FRIJOLES" data-precio="30">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="Trajeta2">
+                <h2>ARROZ</h2>
+                <img src="imagenes/ARROZ.webp" alt="AK-47" class="img">
+                <div class="Info">
+                    <p>VERDE VALLE</p><br>
+                    <p>ARROZ NORMAL</p><br>
+                    <p>1 KG</p><br>
+                    <p class="precio">$20</p><br>
+                    <button class="boton2" data-nombre="ARROZ" data-precio="20">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="Trajeta3">
+                <h2>LENTEJAS</h2>
+                <img src="imagenes/LENTEJAS.webp" alt="MP5" class="img">
+                <div class="Info">
+                    <p>PAISA</p><br>
+                    <p>LENTEJAS</p><br>
+                    <p>1 KG</p><br>
+                    <p class="precio">$25</p><br>
+                    <button class="boton3" data-nombre="LENTEJAS" data-precio="25">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="Trajeta4">
+                <h2>ATUN</h2>
+                <img src="imagenes/ATUN.png" alt="M1014" class="img">
+                <div class="Info">
+                    <p>DOLORES</p><br>
+                    <p>ATUN DE AGUA</p><br>
+                    <p>ENLATADO</p><br>
+                    <p class="precio">$21</p><br>
+                    <button class="boton4" data-nombre="ATUN" data-precio="21">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="Trajeta5">
+                <h2>SARDINA</h2>
+                <img src="imagenes/SARDINA.png" alt="SCAR" class="img">
+                <div class="Info">
+                    <p>DOLORES</p><br>
+                    <p>SARDINA</p><br>
+                    <p>ENLATADA</p><br>
+                    <p class="precio">$30</p><br>
+                    <button class="boton5" data-nombre="SARDINA" data-precio="30">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="Trajeta6">
+                <h2>CAFE</h2>
+                <img src="imagenes/CAFE.png" alt="UMP" class="img">
+                <div class="Info">
+                    <p>PREMIUM</p><br>
+                    <p>CAFE SOLUBLE</p><br>
+                    <p>350 g</p><br>
+                    <p class="precio">$20</p><br>
+                    <button class="boton6" data-nombre="CAFE" data-precio="20">COMPRAR</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Mensaje flotante de confirmación -->
+        <div id="mensaje-confirmacion" class="mensaje-oculto"></div>
+
+        <!-- Apartado Carrito de Compras -->
+        <section id="carrito-compras" class="carrito">
+            <h2>Carrito de compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p class="total-carrito">Total: $<span id="total-precio">0</span></p>
+        </section>
+    </main>
+
+    <!-- Archivo de JavaScript necesario para que funcione -->
+    <script src="Abarrotes.js"></script>
+</body>
+</html>

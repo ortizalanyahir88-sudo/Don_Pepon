@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #fe9cf6 0%,rgb(172, 45, 184), #8b2dbe 100%);
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(243, 242, 242);
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+}
+.marquesina-contenedor{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+box-sizing: border-box;
+background-color: linear-gradient(pink, purple);
+padding: 10px 0;
+}
+.marquesina-titulo{
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+    animation: desplazar 10s linear infinite; 
+}
+@keyframes desplazar {
+    0% {
+transform: translateX(-100);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+.Contenedor1,.Contenedor2,.Contenedor3,.Contenedor4,.Contenedor5{
+    width: 300px;
+    height: 250px;
+}
+.Contenedor1{
+    background-color: rgb(37, 204, 154);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid rgb(255, 254, 254);
+    position: relative;
+    left: 10px;
+    border-radius: 16px;
+    overflow: auto;
+    padding: 10px;
+}
+.Contenedor1 .Audio1{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    
+}
+.Contenedor2{
+    position: relative;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(rgba(24, 177, 126, 0.984),rgb(0, 255, 247));
+    background-attachment: fixed;
+    border: 3px solid rgb(255, 254, 254);
+    left: 470px;
+    bottom: 275px;
+    padding: 10px;
+    border-radius: 16px;
+}
+.Contenedor2 .Video2{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+}
+.Contenedor3{
+    background-color: rgba(0, 245, 220, 0.822);
+    border: 3px solid rgb(255, 254, 254);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border-radius: 16px;
+    overflow: auto;
+    left: 920px;
+    bottom: 550px;
+    padding: 10px;
+}
+
+.Contenedor3 .Video3{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+.Contenedor4{
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border: 3px solid rgb(255, 254, 254);
+    border-radius: 16px;
+    padding: 10px;
+    left: 10px;
+    bottom: 400px;
+}
+.Contenedor4 .Audio4{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    
+}
+
+.Contenedor5{
+    background-color: rgb(17, 205, 183);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 16px;
+    padding: 10px;
+    transition: background-color 0.8s ease;
+    cursor: pointer;
+    left: 920px;
+    bottom: 680px;
+}
+.Contenedor5:hover{
+    background-color: rgba(54, 236, 151, 0.966);
+}
+.Contenedor5 .Audio5{
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    
+}
+.Eminem .Slim-Shady{
+    position: relative;
+    left: 300px;
+    bottom: 1100px;
+    overflow: hidden;
+    width: 650px;
+    height: 570px;
+    object-fit: cover;
+}
+.BOTON{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    bottom: 0px;
+    position: absolute;
+}
